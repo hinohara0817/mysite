@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 文字コード指定 -->
+    <meta charset="utf-8">
+    <title>SHINYA | PORTFOLIO</title>
+    <!-- stylesheet -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="shortcut icon" href="image/favicon.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>SHINYA</h1>
+        <div id="global-navi" class="header-menu">
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="Toggle hidden">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <div class="mainimage">
+        <div class="image-bg">
+          <p>Welcome!!</p>
+          <h2>This is my portfolio!</h2>
+          <button type="button" name="button"><a href="#contact">Contact</a></button>
+        </div>
+      </div>
+    </header>
+    <div id="main">
+      <div id="about" class="section fadein">
+        <h2 class="title">About Me</h2>
+        <div class="container">
+          <div class="pofile-image">
+            <img src="image/about.jpeg" alt="profile">
+          </div>
+          <div class="about-profile">
+            <p class="myname">日野原真也。千葉県在住。</p>
+            <p>平成7年生まれの24歳。趣味は読書と旅行。</p>
+            <p>学生時代は陸上に熱中し、大学でスポーツ科学を学び、新しいことに挑戦するためIT企業に就職。銀行のシステム開発に携わる。</p>
+            <p>現在はとある上場企業でマークアップエンジニアとして働いております。</p>
+            <p>本業の経験を生かして質の高いサイトを制作致します。</p>
+            <div class="sns-list">
+              <ul>
+                <li><a href="https://twitter.com/hinoshin0817"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/hinohara0817?tab=repositories"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://hinoshin-blog.com/"><i class="fas fa-rss-square"></i></a></li>
+                <li><a href=""><i class="fas fa-envelope"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skill" class="section fadein">
+        <h2 class="title">Skill</h2>
+        <p class="list">スキル一覧</p>
+        <div class="chart">
+          <ul class="skill-list">
+            <li class="html">HTML5</li>
+            <li class="css">CSS3 & SCSS</li>
+            <li class="js">JavaScript</li>
+            <li class="jquery">jQuery</li>
+            <li class="react">React</li>
+            <li class="ruby">Ruby</li>
+            <li class="rails">Ruby on Rails</li>
+            <li class="php">PHP</li>
+            <li class="wordpress">Wordpress</li>
+          </ul>
+          <div class="line">
+            <ul>
+              <li class="first">Skill Level</li>
+              <li class="second">Basic</li>
+              <li class="third">Advance</li>
+              <li class="fourth">Seasoned</li>
+              <li class="fifth">Expert</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="works" class="section fadein">
+        <h2 class="title">My Works</h2>
+        <p>過去の制作実績の一部をご紹介します。</p>
+        <div>
+          <ul class="tab-group">
+              <li class="tab is-active"><a class="active" data-filter="*">All</a></li>
+              <li class="tab"><a class="" data-filter=".webdesign">Webアプリ</a></li>
+              <li class="tab"><a class="" data-filter=".WORK">Webサイト</a></li>
+              <li class="tab"><a class="" data-filter=".WORK">LP</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <ul class="work-img-list panel-group">
+            <li class="panel is-show">
+              <a href="https://bookrize-app.herokuapp.com/">
+                <img src="image/webapp1.png" alt="app1">
+              </a>
+              <a href="#">
+                <img src="image/web-site.png" alt="site1">
+              </a>
+              <a href="image/lp1.png" class="popup-image">
+                <img src="image/lp1.png" alt="lp1">
+              </a>
+              *模写
+            </li>
+            <li class="panel">
+              <a href="https://bookrize-app.herokuapp.com/">
+                <img src="image/webapp1.png" alt="app1">
+              </a>
+            </li>
+            <li class="panel">
+              <a href="#">
+                <img src="image/web-site.png" alt="site1">
+              </a>
+            </li>
+            <li class="panel">
+              <a href="image/lp1.png" class="popup-image">
+                <img src="image/lp1.png" alt="lp1">
+              </a>
+              *模写
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="service" class="section fadein">
+        <h2 class="title">Service</h2>
+        <div class="card">
+          <ul>
+            <li class="card-item">
+              <p class="card-title">HP制作</p>
+              <img src="image/hp.png" alt="hp">
+              <p>お客様のご要望をしっかりヒアリングし、実用的なHPの作成から運用、サポート、改善まで。</p>
+            </li>
+            <li class="card-item">
+              <p class="card-title">アプリ制作</p>
+              <img src="image/coporate.png" alt="coporate">
+              <p>ご要望に合わせて様々なアプリを作成させていただきます。
+              </p>
+            </li>
+            <li class="card-item">
+              <p class="card-title">LP制作</p>
+              <img src="image/lp.png" alt="lp">
+              <p>お客様の商材を理解し、
+                最適なデザインかつ
+                訴求力の強いサイトをご提供いたします。</p>
+            </li>
+            <li class="card-item">
+              <p class="card-title">wordpress制作</p>
+              <img src="image/wordpress.png" alt="wordpress">
+              <p>ブログなど頻繁に更新するサイトはwordplessで制作いたします。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="contact" class="section fadein">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGUw4iY_0DApMNa658GCHzxSadMIU6hYTdmVZPq_nh3gcgQQ/viewform?embedded=true" width="640" height="677" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            <div class="contact-list">
+              <a href="" class="modal-show">プライバシーポリシー</a>
+              <div class="modal-background">
+                <div class="modal">
+                  <div class="escape">
+                    <h2>プライバシーポリシー</h2>
+                    <p>私は、あらかじめご本人の同意を得ず、利用目的の達成に必要な範囲を超えて個人情報を取扱うことはありません。合併その他の理由により個人情報を取得した場合にも、あらかじめご本人の同意を得ないで、承継前の利用目的の範囲を超えて取扱うことはありません。ただし、次の場合はこの限りではありません。</p>
+                    <p>（1）法令に基づく場合</p>
+                    <p>（2）人の生命、身体または財産の保護のために必要がある場合であって、ご本人の同意を得ることが困難であるとき</p>
+                    <p>（3）公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって、ご本人の同意を得ることが困難であるとき</p> 
+                    <p>（4）国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、ご本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき</p>      
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="sns-list">
+        <ul>
+          <li><a href="https://twitter.com/hinoshin0817"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://github.com/hinohara0817?tab=repositories"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://hinoshin-blog.com/"><i class="fas fa-rss-square"></i></a></li>
+          <li><a href=""><i class="fas fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <p class="copyright">© Copyright | Shinya 2020 All Right Reserved</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
