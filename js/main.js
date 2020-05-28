@@ -1,6 +1,12 @@
 'use strict';
 {
   $(function(){
+    var showloading = document.getElementById('showloading');
+    var contents = document.getElementById('main');
+    window.addEventListener('load', function () {
+      showloading.style.display = 'none';
+      contents.classList.remove('main');
+    });
     $('a[href^="#"]').click(function(){
       var speed = 500;
       var href= $(this).attr("href");
